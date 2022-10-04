@@ -2,3 +2,8 @@ venvs/
 ECON320_lab/00_main_assignments/hello.py
 ECON320_lab/00_main_assignments/james_song_Econ320_Lab_class5_Simple_regression_empty.ipynb
 ECON320_lab/01_lab_handouts/Class#4Empty.ipynb
+test_ECON320_lib/
+ECON320_lib.egg-info/
+03_datasets/
+dist/
+build/
