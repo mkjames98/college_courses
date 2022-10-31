@@ -17,7 +17,7 @@ def birthday_str_variance_srm(birthday_string):
     return var_x, var_u
 
 
-def generate_srm_birhtday(
+def generate_srm_birthday(
     birthday_string, rng, x_mean, u_mean, size
 ):  # x_mean = 10, u_mean =0
     # beta0 is addition of 3rd and 4th digit of my birthday
@@ -60,7 +60,7 @@ def birthday_str_variance_mrm(birthday_string):
 
 
 # refactored for mrm
-def generate_mrm_birhtday(
+def generate_mrm_birthday(
     birthday_string, rng, x1_mean, x2_mean, u_mean, size
 ):  # x_mean = 10, u_mean =0
     # beta0 is addition of 3rd and 4th digit of my birthday

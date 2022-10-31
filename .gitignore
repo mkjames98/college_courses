@@ -7,3 +7,15 @@ ECON320_lib.egg-info/
 03_datasets/
 dist/
 build/
+.eggs/
+ECON320_lib/__pycache__/
+venv/
+# Default ignored files
+.idea/shelf/
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests/
+# Datasource local storage ignored files
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/

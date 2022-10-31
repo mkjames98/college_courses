@@ -2,14 +2,15 @@ import numpy as np
 import pandas as pd
 
 
-def sample_betas(sample_x, sample_y):
+def sample_betas(sample_x, sample_y, debugging):
     covxy = np.cov(sample_x, sample_y)[1, 0]
-    print("covariance is: " + str(covxy))
     varx = sample_x.var()
     beta1_sample = covxy / varx
     beta0_sample = sample_y.mean() - (beta1_sample * sample_x.mean())
-    print(f"sample b_0: {beta0_sample}")
-    print(f"sample b_1: {beta1_sample}")
+    if debugging:
+        print("covariance is: " + str(covxy))
+        print(f"sample b_0: {beta0_sample}")
+        print(f"sample b_1: {beta1_sample}")
 
     return beta0_sample, beta1_sample
 
