@@ -19,3 +19,4 @@ venv/
 .idea/dataSources/
 .idea/dataSources.local.xml
 .idea/
+venv310/
